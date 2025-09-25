@@ -1,0 +1,5 @@
+services:
+  dotnet:
+    build: .
+    ports:
+      - "9999:8080"
