@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', function () {
-return response()->json(['message' => 'Hello from Laravel 12!']);
+return response()->json(['message' => 'Hello from Laravel 123!']);
 });

@@ -31,7 +31,6 @@ echo "opcache.revalidate_freq=0"; \
 # Set working dir
 WORKDIR /var/www/html
 
-
 # www-data UID tweak (optional) to avoid permission issues on some hosts
 # ARG PUID=1000
 # RUN adduser -D -u ${PUID} www
